@@ -1,1 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        header h1 {
+            margin: 0;
+            color: #333;
+        }
+        header p {
+            margin: 5px 0;
+            color: #555;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .section h2 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+            color: #333;
+        }
+        .job, .education {
+            margin-bottom: 15px;
+        }
+        .job h3, .education h3 {
+            margin: 0;
+            color: #333;
+        }
+        .job p, .education p {
+            margin: 5px 0;
+            color: #555;
+        }
+        .skills ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .skills ul li {
+            background: #e9e9e9;
+            margin-bottom: 5px;
+            padding: 8px;
+            border-radius: 4px;
+            color: #333;
+        }
+        .contact-info, .skills, .certifications, .languages {
+            margin-bottom: 20px;
+        }
+        .contact-info p, .certifications p, .languages p {
+            margin: 5px 0;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Logeshwaran</h1>
+            <p>Email: 220701145@rajalakshmi.edu.in | Phone: 9344209257 
+        </header>
+
+        <section class="section objective">
+            <h2>Professional Summary</h2>
+            <p>Highly motivated and results-oriented professional in [Your Industry]. Adept at managing multiple projects simultaneously, with a proven track record of delivering results on time and within budget. Strong analytical skills with a commitment to driving continuous improvement.</p>
+        </section>
+
+        <section class="section experience">
+            <h2>Professional Experience</h2>
+            <div class="job">
+                
+                <ul>
+                    <li>Led cross-functional teams to successfully deliver complex projects on time and within budget.</li>
+                    <li>Implemented new project management methodologies, resulting in a 20% increase in project efficiency.</li>
+                    <li>Coordinated with stakeholders to define project scope and objectives, ensuring alignment with organizational goals.</li>
+                </ul>
+            </div>
+            <!-- Repeat job section for other positions -->
+        </section>
+
+        <section class="section education">
+            <h2>Education</h2>
+            <div class="education">
+                <h3>BE COMPUTER SCIENCE AND ENGINEERING-RAJALAKSHMI ENGINEERING COLLEGE</h3>
+                <p><strong>Location:</strong> THANDALAM</p>
+                <p><strong>Graduation Date:</strong> May 2026</p>
+                <p><strong>Relevant Coursework:</strong> Strategic Management, Financial Analysis, Organizational Behavior</p>
+            </div>
+            <!-- Repeat education section for other degrees -->
+        </section>
+
+        <section class="section skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>Project Management</li>
+                <li>Strategic Planning</li>
+                <li>Data Analysis</li>
+                <li>Team Leadership</li>
+                <li>Budget Management</li>
+                <!-- Add more skills as needed -->
+            </ul>
+        </section>
+
+        <section class="section certifications">
+            <h2>Certifications</h2>
+            <p>PL/SQL</p>
+            <p>ROBOTIC PROCESS AND AUTOMATION</p>
+            <!-- Repeat for additional certifications -->
+        </section>
+
+        <section class="section languages">
+            <h2>Languages</h2>
+            <p>English </p>
+            <p>Japanese- Professional Working Proficiency</p>
+            <!-- Add more languages as needed -->
+        </section>
+    </div>
+</body>
+</html>
 
