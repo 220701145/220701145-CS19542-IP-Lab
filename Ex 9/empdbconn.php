@@ -21,7 +21,7 @@ if (!$conn) {
 }
 
 // SQL query
-$sql = "INSERT INTO employee VALUES (1, 'Lokeshwar', 'CSE', '2004-10-01', 5000)";
+$sql = "INSERT INTO employee VALUES (1, 'Logeshwaran', 'CSE', '2004-10-01', 5000)";
 
 // Execute query and check for success
 if ($conn->query($sql) === TRUE) {
